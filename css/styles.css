@@ -1,0 +1,53 @@
+h1 {
+  font-family: inherit;
+  font-style: normal;
+}
+
+h3 {
+  font-style:normal;
+  text-align: left;
+}
+
+p {
+  font-family: inherit;
+  font-style:normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+ul {
+  font-size: 20px;
+  line-height: 30px;
+  font-family:inherit;
+}
+
+.lightClass{
+  background-color: white;
+  color: black;
+
+}
+.lightClass > [h1,h2,h3,h4,h5,h6,p,ul,li]{
+  color: auto;
+}
+
+.darkClass{
+  background-color: rgba(0, 0, 0, 255);
+  color: rgba(255, 255, 255, 255);
+}
+
+.darkClass > [h1,h2,h3,h4,h5,h6,p,ul,li]{
+  color: auto;
+}
+body.lightClass > button{
+  background-color: black;
+  color: white;
+}
+body.darkClass > button{
+  background-color: white;
+  color: black;
+}
+#border > p.borderWrapper{
+  border-style: solid;
+  border-width: thin;
+
+}
